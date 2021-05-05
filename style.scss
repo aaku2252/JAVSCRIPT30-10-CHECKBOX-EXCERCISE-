@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+.box {
+    // background: linear-gradient(to right, #fc4a1a, #f7b733);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    margin: 80px auto;
+    max-width: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.list {
+    display: flex;
+    padding: 7px;
+    border: 1px solid rgb(182, 178, 178);
+    border-collapse: collapse;
+    input {
+        width: 10%;
+        margin: 0 10px;
+        align-self: center;
+    }
+    .text {
+        padding: 0 10px;
+        border-left: 1px solid rgb(182, 178, 178);
+    }
+}
+// we can also add this css for only checked checkboxes rather than changing it in javscript
+// input:checked + div {
+//     text-decoration: line-through;
+// }
